@@ -1,11 +1,11 @@
-var k = "";
 function main() {
     var k = prompt("Gib deinen Namen ein");
     var node = document.getElementById("inhalt");
-    node.innerHTML += "Hi ";
-    node.innerHTML += k;
-    node.innerHTML += ", ich grueße dich!";
-    console.log("Hallo", k, ", willkommen im Kurs!");
+    var i = "";
+    i += "Hi ";
+    i += k;
+    i += ", ich grueße dich!";
+    console.log(i);
 }
 document.addEventListener('DOMContentLoaded', main);
 //# sourceMappingURL=Aufgabe0.js.map

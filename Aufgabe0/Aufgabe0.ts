@@ -1,12 +1,12 @@
-    var k : string ="";
-        
-    function main() {
-        var k = prompt("Gib deinen Namen ein");
-        var node : any = document.getElementById("inhalt");
-        node.innerHTML += "Hi ";
-        node.innerHTML += k;
-        node.innerHTML += ", ich grueße dich!";
-        console.log("Hallo",k,", willkommen im Kurs!");
-        }
+function main() {
+    var k = prompt("Gib deinen Namen ein");
+    var node: any = document.getElementById("inhalt");
+    var i: string = "";
+    i += "Hi ";
+    i += k;
+    i += ", ich grueße dich!";
+    console.log(i);
     
-    document.addEventListener('DOMContentLoaded',main);
+}
+
+document.addEventListener('DOMContentLoaded', main);
